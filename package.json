@@ -1,0 +1,42 @@
+{
+    "name": "vscode-theme-vlight",
+    "displayName": "VLight Theme",
+    "description": "Light contrast yet easy on eyes color theme",
+    "version": "1.0.0",
+    "publisher": "Vladeeg",
+    "license": "MIT",
+    "galleryBanner": {
+		"color": "#E8E8E8",
+		"theme": "light"
+	},
+    "engines": {
+       "vscode": "^1.12.0"
+    },
+    "categories": [
+    "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "light",
+        "contrast"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "VLight",
+                "uiTheme": "vs",
+                "path": "./themes/VLight.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/Vladeeg/vscode-theme-vlight/issues",
+        "email": "vladoseeg@gmail.com"
+    },
+    "homepage": "https://github.com/Vladeeg/vscode-theme-vlight",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Vladeeg/vscode-theme-vlight"
+    }
+}
