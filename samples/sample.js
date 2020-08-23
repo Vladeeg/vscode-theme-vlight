@@ -76,6 +76,7 @@ const options, hey = {
 const someString = 'this a string';
 
 const someTemplateLiteral = `this is a template literal`;
+const anotherTemplateLiteral = `this is a template ${isNaN(argv.lang)} literal`;
 
 const nestedTemp = `template string ${'normal string'} nested ${`another string ${'even deeper'}`}`
 

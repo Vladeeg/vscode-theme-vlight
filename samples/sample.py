@@ -9,7 +9,7 @@ from email.mime.text import MIMEText
 # the text file contains only ASCII characters.
 fp = open(textfile, 'rb')
 # Create a text/plain message
-msg = MIMEText(fp.read())
+msg = MIMEText(_text=fp.read())
 fp.close()
 
 # me == the sender's email address
@@ -37,7 +37,7 @@ const = 42
 PI = 3.14
 langConst = True
 NOTHING = None
-print '{} {!r}'.format('some string formatted', 'another\nstring')
+print('{} {!r}'.format('some string formatted', 'another\nstring'))
 
 from numpy import ndarray
 
@@ -46,3 +46,7 @@ def myfun(myvar: ndarray=2):
 
 if __name__ is '__main__' and not None:
     pass
+
+class testClass:
+    def method(self, a):
+        self.a = a

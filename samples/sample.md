@@ -27,9 +27,7 @@ content starts at 4-columns in.
 > if you like.
 
 
-[![Marketplace](http://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onelight.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onelight) [![Installs](http://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onelight.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onelight) [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/akamud.vscode-theme-onelight.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onelight)  
-VSCode Theme based on Atom's [One Light](https://github.com/atom/one-light-syntax) theme
-
+[![Marketplace](https://vsmarketplacebadge.apphb.com/version/vladeeg.vscode-theme-vlight.svg)](https://marketplace.visualstudio.com/items/vladeeg.vscode-theme-vlight) [![Installs](https://vsmarketplacebadge.apphb.com/installs/vladeeg.vscode-theme-vlight.svg)](https://marketplace.visualstudio.com/items/vladeeg.vscode-theme-vlight) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/vladeeg.vscode-theme-vlight.svg)](https://marketplace.visualstudio.com/items/vladeeg.vscode-theme-vlight)  
 ![Sample image](sample.png)
 
 * **Bold Item in List**: Element in list `ClientId`
@@ -44,8 +42,8 @@ Some text with _italic_ in it
 {
   "nbf": 1485258212,
   "exp": 1485258512,
-  "iss": "http://localhost:5000",
-  "aud": "http://localhost:5000/resources",
+  "iss": "https://localhost:5000",
+  "aud": "https://localhost:5000/resources",
   "client_id": "ClientId",
   "sub": "foo",
   "auth_time": 1485258211,

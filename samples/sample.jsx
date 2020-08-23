@@ -32,6 +32,7 @@ export default class AdminArtists extends Component {
 
 	render = () => {
 		console.log(this.props.artists);
+		console.log({a: b})
 		return <div>
 
         </div>;
