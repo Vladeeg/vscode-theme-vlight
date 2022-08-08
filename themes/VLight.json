@@ -182,7 +182,11 @@
     "terminal.ansiBrightYellow": "#F2A60D",
     "terminal.ansiYellow": "#E0AF02",
     "terminal.background": "#f0f0f0",
-    "terminal.foreground": "#403f53"
+    "terminal.foreground": "#403f53",
+    // Inlay hints
+    "editorInlayHint.foreground": "#403f53",
+    "editorInlayHint.background": "#b133ec33",
+    "editorInlayHint.typeForeground": "#9f00bd"
   },
   "semanticHighlighting": false,
   "tokenColors": [

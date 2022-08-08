@@ -1,21 +1,19 @@
 package blah
+import "fmt"
 
 //Foo
 type Foo struct {
-
+    Field int64
 }
 
 type Bar interface {
-
+    Bazz(*Foo)
 }
-
-package main
-
-import "fmt"
 
 func accumulator(sum interface{}) func(interface{}) interface{} {
     return func(nv interface{}) interface{} {
-        string a := "foo"
+        a := "foo"
+        fmt.Print(a)
         switch s := sum.(type) {
         case int:
             switch n := nv.(type) {
